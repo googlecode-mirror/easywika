@@ -1,6 +1,6 @@
 <?php
 return array(
-    'db' => array(
+    'database' => array(
         'username' => '',
         'password' => '',
     ),

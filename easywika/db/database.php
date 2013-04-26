@@ -56,9 +56,9 @@ class Database
             $localConfig = include APP_PATH . '/config/local.php';
             $globalConfig = include APP_PATH . '/config/global.php';
             self::$_handle = new \PDO(
-                $globalConfig['db']['dsn'],
-                $localConfig['db']['username'],
-                $localConfig['db']['password']
+                'mysql:host=' . $globalConfig['database']['host'] . ';dbname=' . $globalConfig['database']['name'],
+                $localConfig['database']['username'],
+                $localConfig['database']['password']
             );
         }
 
