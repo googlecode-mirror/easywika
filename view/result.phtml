@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html"; charset=UTF-8">
+        <title>EasyWika</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/result.css">
+        <!--[if lt IE 9]>
+            <script> document.createElement("a"); </script>
+            <script> document.createElement("b"); </script>
+            <script> document.createElement("c"); </script>
+            <script> document.createElement("d"); </script>
+            <script> document.createElement("e"); </script>
+            <script> document.createElement("f"); </script>
+            <script> document.createElement("g"); </script>
+        <![endif]-->
+    </head>
+    <body>
+        <table class="result-table">
+            <thead>
+                <tr>
+                    <th>Deutsch</th>
+                    <th>Tagalog</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($result as $row) : ?>
+                <tr>
+                    <td><?php echo $row->language; ?></td>
+                    <td><?php echo $row->translation; ?></td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </body>
+</html>

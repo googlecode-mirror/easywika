@@ -1,0 +1,23 @@
+.result-table {
+    margin: 0 auto;
+}
+
+    .result-table thead tr th {
+        background: #a0c0cb;
+        color: #024d67;
+        padding: 5px;
+    }
+
+    .result-table tbody tr td {
+        background: #ffffff;
+        padding: 10px;
+        border: 1px solid #c4d4de;
+    }
+
+a { background: #CC22EE; }
+b { background: #CC9900; }
+c { background: #999966; }
+d { background: #009999; }
+e { background: #CCCC33; }
+f { background: #CCCCFF; }
+g { background: #CC6666; }
