@@ -1,8 +1,8 @@
 <?php
 /**
- * PageShare
+ * EasyWika
  *
- * @link      http://code.google.com/p/mabilis-wika/
+ * @link      http://code.google.com/p/easywika/
  * @author    Mario Schillermann (mario.schillermann@gmail.com)
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License, Version 2
  */

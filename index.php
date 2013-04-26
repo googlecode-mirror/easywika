@@ -5,7 +5,7 @@ use EasyWika\Db\Database;
 spl_autoload_extensions('.php');
 spl_autoload_register();
 
-define('DATABASE_PREFIX', 'mw');
+define('DATABASE_PREFIX', 'ew');
 define('APP_PATH', dirname(__FILE__));
 
 $render = 'view/search.phtml';

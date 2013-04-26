@@ -1,10 +1,10 @@
 #form-signin {
     width: 400px;
-    background: #a2c5d1;
+    background: #4e4d41;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    border: 1px solid #468498;
+    border: 1px solid #2f383c;
         -webkit-border-radius: 5px;
            -moz-border-radius: 5px;
                 border-radius: 5px;
@@ -15,5 +15,5 @@
 }
 
     #form-signin h1 {
-        color: #024d67;
+        color: #ffffff;
     }
